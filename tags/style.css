@@ -59,7 +59,7 @@ h3 {
 }
 .borderNone {
   border: none;
-  border-radius: 10px;
+  border-radius: 8px;
 }
 .info {
   display: flex;
@@ -78,12 +78,13 @@ h3 {
 }
 .avatar {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start !important;
   flex-direction: column;
   align-items: center;
-  height: 300px;
-  width: 250px;
-
+  position: relative;
+  height: 200px;
+  width: 180px;
+  padding: 24px 32px 20px;
   background-color: #ffffff;
   border-radius: 10px;
   border: 1px solid rgb(229, 231, 235);
@@ -91,4 +92,47 @@ h3 {
 }
 .avatar:hover {
   box-shadow: 0 0 10px rgba(212, 209, 209, 0.5);
+}
+.start a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.start {
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  position: relative;
+  left: -40px;
+}
+.dark {
+  display: inline-block;
+  background-color: #e2e8f0;
+  color: black;
+  font-weight: 600;
+  padding: 6px 15px;
+  width: 60%;
+  transition: all 0.3s ease;
+}
+.dark:hover {
+  background-color: #64748b;
+  color: white;
+}
+.top {
+  color: black;
+}
+.top span {
+  color: #ef4444;
+}
+.top,
+.top span {
+  margin-top: 14px;
+}
+.start button {
+  background-color: #2563eb;
+  color: white;
+  margin-top: 20px;
+  padding: 8px 30px;
 }
