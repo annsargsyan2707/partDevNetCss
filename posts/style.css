@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+    background-color: #fafafa;
+    width: 780px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    tab-size: 4;
+  }
+  .firstRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  h1 {
+    color: black;
+    font: bold;
+  }
+  .aLinkBtn {
+    padding: 12px 16px;
+  
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  .orange {
+    background-color: #ef4444;
+  }
+  .orange:hover {
+    background-color: #dc2626;
+  }
+  .colorWhite {
+    color: #fafafa;
+  }
+  .borderNone {
+    border: none;
+  }
+  
+  .grey {
+    background-color: #e2e8f0;
+  }
+  .input {
+    padding: 8px 12px;
+  }
+  .thirdRow {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 40px 0px 0px;
+  }
+  .blue {
+    background-color: #818cf8;
+  }
+  .grey-hover:hover {
+    background-color: #cbd5e1;
+  }
+  .grey-hover {
+    color: #71717a;
+  }
+  .searchLink {
+    padding: 12px 24px;
+  }
+  .postSec {
+    display: grid;
+    grid-template-columns: repeat(2, 350px);
+    gap: 50px;
+    margin-top: 20px;
+  }
+  
+  .firstPart {
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f5;
+    width: 340px;
+    border-radius: 10px;
+    padding: 15px;
+    padding-left: 20px;
+  }
+  .firstLeft {
+    background-color: #f4f4f5;
+  }
+  .scale {
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+  }
+  .scale:hover {
+    transform: scale(1.05);
+  }
+  .imgAlt {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    transition: all 0.3s ease;
+  }
+  
+  .imgAlt:hover {
+    color: #f79090;
+  }
+  .textNone {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+  }
+  
+  .aLinkDiv,
+  .last a {
+    padding: 4px;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  .aLinkDiv div,
+  .avatar {
+    color: #0c0d0e;
+    padding: 5px;
+    transition: all 0.3s ease;
+  }
+  .aLinkDiv:hover,
+  .last a:hover {
+    background-color: #6366f1;
+  }
+  .colorWhite:hover {
+    color: white;
+  }
+  
+  .author {
+    padding: 10px;
+  }
+  .first-span {
+    color: #4e5052;
+    font-size: 15px;
+    transition: all 0.3s ease;
+  }
+  .first-span:hover {
+    color: #f79090;
+  }
+  .messages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding: 3px 10px;
+    color: #5b5f63;
+  }
+  .inDiv {
+    padding: 0 3px;
+  }
+  .red {
+    background-color: #dc2626;
+  }
+  .green {
+    background-color: #6366f1;
+  }
+  
